@@ -16,7 +16,7 @@ const Users =({loading, users})=> {
         )
      }
 }
-const userStyle ={
+const userStyle = {
     display:'grid',
     gridTemplateColumns:'repeat(3, 1fr)',
     gridGap:'10px'
