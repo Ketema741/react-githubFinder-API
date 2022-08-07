@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import propTypes from 'prop-types'
 const UserItem =(props) =>{
-   const { login,avatar_url ,html_url} =props.user
+   const { login,avatar_url } =props.user
     UserItem.propTypes = {
         user:propTypes.object.isRequired,
 
